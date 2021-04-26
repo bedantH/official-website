@@ -1,0 +1,112 @@
+/* main body */
+.main-body {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+/* tagline and vector image combined */
+.tagline-sec {
+  align-items: center;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+/*  */
+.tagline h1 {
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 5px;
+  line-height: 80px;
+}
+
+.grow-connect {
+  font-weight: 600;
+}
+
+/* Github Button */
+
+.github-btn {
+  background-image: linear-gradient(to right, #c42cbc, #8a20e9);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 20px;
+}
+
+.github-btn a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.github-txt {
+  font-size: 20px;
+  letter-spacing: 5%;
+  margin-right: 20px;
+  margin-top: 5px;
+  font-weight: 300;
+}
+
+.github-txt svg{
+  margin-bottom: 3px;
+}
+
+.github-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.svg-img img{
+  width: 100%;
+}
+
+/* Responsice CSS code */
+@media screen and (max-width: 1024) {
+  .vector-image {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  /* Vector Image */
+  .tagline-sec {
+    text-align: left;
+    margin-top: 20%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  /* Vector Image */
+  .svg-img img{
+    display: none;
+  }
+
+  .tagline h1{
+    line-height: 50px;
+  }
+
+  .header-list{
+    padding: 0;
+  }
+
+  .divide-line{
+    display: none;
+  }
+
+  .events-blog{
+    display: none;
+  }
+
+  .logo-name{
+    padding-left: 15px;
+  }
+
+  .tagline-sec {
+    margin-top: 10%;
+  }
+}
+
+

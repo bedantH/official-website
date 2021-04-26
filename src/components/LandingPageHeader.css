@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.top-header {
+  justify-content: center;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.top-header ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-header ul li {
+  list-style-type: none;
+}
+
+.left-sec {
+  display: flex;
+}
+
+.left-sec-content {
+  display: flex;
+}
+
+/* Logo and Name */
+.logo-name {
+  display: flex;
+  padding: 5px;
+}
+
+.logo-img {
+  width: 50px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.org-name {
+  font-size: 1.75rem;
+  letter-spacing: 5px;
+  padding-top: 16px;
+  padding-left: 20px;
+}
+
+/* Divide-Line */
+.divide-line {
+  vertical-align: middle;
+  align-self: center;
+  background-color: black;
+  width: 1px;
+  height: 40px;
+  margin-top: 7px;
+  margin-left: 10px;
+}
+
+/* Events and Blog Section */
+.events-blog {
+  display: flex;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.events-blog li a {
+  text-decoration: none;
+}
+
+.events-link ,.blogs-link {
+  text-align: center;
+  font-size: 1rem;
+  margin: auto 10px auto 10px;
+}
+
+.events-link a, .blogs-link a{
+  color: black;
+}
+
+/* Join button */
+.join-sec {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.join-li {
+  text-align: center;
+}
+
+.join-btn {
+  text-align: center;
+  background-image: linear-gradient(to right, #c42cbc, #8a20e9);
+  border: none;
+  border-radius: 10px;
+  padding: 9px 30px;
+}
+
+.join-btn-link {
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.join-btn-link:hover{
+  color: white;
+}
+
+/* Responsive CSS code */
+
+@media screen and (max-width: 786px) {
+  .top-header {
+    overflow: hidden;
+  }
+}
