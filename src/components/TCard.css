@@ -1,0 +1,74 @@
+.team-member-img {
+  position: absolute;
+  left: 50%;
+  top: -30%;
+  transform: translate(-50%);
+  background-color: #b97cf0;
+  width: 191px;
+  height: 191px;
+  border-radius: 50%;
+}
+
+.team-member-img img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.card-teams {
+  margin-top: 120px;
+  position: relative;
+  text-align: center;
+  background-color: #f0e3ff;
+  width: 300px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.card-teams h1 {
+  letter-spacing: 2px;
+  font-size: 1.9rem;
+  margin: 15px;
+  font-weight: 500;
+}
+
+.mem-div {
+  padding-top: 100px;
+}
+
+.team-desc {
+  text-align: center;
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+.desc-mem-text,.desc-mem-text1 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+}
+
+.desc-mem-text1{
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.social-icons {
+  width: 150px;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.social-icons .linkedin,
+.social-icons .twitter, .social-icons .github {
+  padding: 6px;
+  background-color: #b97cf0;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}

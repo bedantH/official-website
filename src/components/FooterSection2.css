@@ -1,0 +1,90 @@
+.footer-layout{
+  position: relative;
+}
+
+.bottom-ftr{
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+
+.left{
+  display: grid;
+  grid-template-columns: 320px 2px auto;
+}
+
+/* Footer bottom section layout css */
+.footer-bottom-layout {
+  background: #e6caff;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  padding: 10px 20px 10px 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* made with ❤️ section */
+
+.made-with-love {
+  display: block; 
+  margin-top: 25px;
+  letter-spacing: 4px;
+  font-size: 20px;
+}
+
+.divide {
+  background-color: black;
+  width: 1px;
+  height: 40px;
+  margin-top: 15px;
+}
+
+/* Contribute to GitHub */
+.contribute {
+  text-align: center;
+  margin: auto auto;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.contri-link {
+  color: rgb(6, 114, 255);
+  text-decoration: none;
+}
+
+/* Social Media Icons */
+.social-media-icons {
+  margin: auto;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
+.social-media-icons img {
+  margin: 10px 10px 10px 10px;
+  width: 50px;
+  height: 50px;
+}
+
+/* Responsive CSS Code */
+
+@media screen and (max-width: 768px) {
+  .footer-bottom-layout{
+    display: block;
+  }
+
+  .social-media-icons{
+    text-align: right;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .left{
+    grid-template-columns: 320px 2px;
+  }
+
+  .contribute{
+    margin-left: 0px;
+  }
+}
+

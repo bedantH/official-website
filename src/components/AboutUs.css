@@ -1,0 +1,402 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap");
+/* scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e2c3ff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8a20e9;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #9e4de7;
+}
+
+.about-header {
+  padding: 45px;
+  padding-top: 18%;
+}
+
+.about-cards,
+.team-cards {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.team-cards {
+  margin-bottom: 60px;
+}
+
+.icon-heading {
+  text-align: center;
+  color: #8a20e9;
+}
+
+.icon-heading h1 {
+  margin-top: 10px;
+  letter-spacing: 15px;
+  font-size: 2rem;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.icon-heading p{
+  display: block;
+  margin: auto;
+  font-size: 1.25rem;
+  margin-top: 30px;
+  text-align: center;
+  width: 60%;
+  color: black;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.icon-heading .icon-info {
+  width: 50px;
+  height: 50px;
+}
+.asset:nth-child(1) {
+  position: absolute;
+  z-index: -1;
+  animation-name: animate-1;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+@keyframes animate-1 {
+  0% {
+    top: 2%;
+  }
+  10% {
+    top: 3%;
+  }
+  20% {
+    top: 4%;
+  }
+  30% {
+    top: 5%;
+  }
+  40% {
+    top: 6%;
+  }
+  50% {
+    top: 7%;
+  }
+  60% {
+    top: 6%;
+  }
+  70% {
+    top: 5%;
+  }
+  80% {
+    top: 4%;
+  }
+  90% {
+    top: 3%;
+  }
+  100% {
+    top: 2%;
+  }
+}
+
+@keyframes animate-2 {
+  0% {
+    top: 20%;
+  }
+  10% {
+    top: 21%;
+  }
+  20% {
+    top: 22%;
+  }
+  30% {
+    top: 23%;
+  }
+  40% {
+    top: 24%;
+  }
+  50% {
+    top: 25%;
+  }
+  60% {
+    top: 24%;
+  }
+  70% {
+    top: 23%;
+  }
+  80% {
+    top: 22%;
+  }
+  90% {
+    top: 21%;
+  }
+  100% {
+    top: 20%;
+  }
+}
+
+@keyframes animate-3 {
+  0% {
+    top: 50%;
+  }
+  10% {
+    top: 49%;
+  }
+  20% {
+    top: 48%;
+  }
+  30% {
+    top: 47%;
+  }
+  40% {
+    top: 46%;
+  }
+  50% {
+    top: 45%;
+  }
+  60% {
+    top: 46%;
+  }
+  70% {
+    top: 47%;
+  }
+  80% {
+    top: 48%;
+  }
+  90% {
+    top: 49%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+
+@keyframes animate-4 {
+  0% {
+    top: 75%;
+  }
+  10% {
+    top: 76%;
+  }
+  20% {
+    top: 77%;
+  }
+  30% {
+    top: 78%;
+  }
+  40% {
+    top: 79%;
+  }
+  50% {
+    top: 80%;
+  }
+  60% {
+    top: 79%;
+  }
+  70% {
+    top: 78%;
+  }
+  80% {
+    top: 77%;
+  }
+  90% {
+    top: 76%;
+  }
+  100% {
+    top: 75%;
+  }
+}
+
+@keyframes animate-5 {
+  0% {
+    top: 70%;
+  }
+  10% {
+    top: 71%;
+  }
+  20% {
+    top: 72%;
+  }
+  30% {
+    top: 73%;
+  }
+  40% {
+    top: 74%;
+  }
+  50% {
+    top: 75%;
+  }
+  60% {
+    top: 74%;
+  }
+  70% {
+    top: 73%;
+  }
+  80% {
+    top: 72%;
+  }
+  90% {
+    top: 71%;
+  }
+  100% {
+    top: 70%;
+  }
+}
+
+@keyframes animate-6 {
+  0% {
+    left: 95%;
+  }
+  10% {
+    left: 94%;
+  }
+  20% {
+    left: 93%;
+  }
+  30% {
+    left: 92%;
+  }
+  40% {
+    left: 91%;
+  }
+  50% {
+    left: 90%;
+  }
+  60% {
+    left: 91%;
+  }
+  70% {
+    left: 92%;
+  }
+  80% {
+    left: 93%;
+  }
+  90% {
+    left: 94%;
+  }
+  100% {
+    left: 95%;
+  }
+}
+
+.asset:nth-child(2) {
+  position: absolute;
+  top: 20%;
+  left: 85%;
+  z-index: -1;
+  animation-name: animate-2;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+.asset:nth-child(3) {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  z-index: -1;
+  animation-name: animate-3;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+.asset:nth-child(4) {
+  position: absolute;
+  top: 75%;
+  left: 75%;
+  z-index: -1;
+  animation-name: animate-4;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+.asset:nth-child(5) {
+  position: absolute;
+  top: 70%;
+  left: 7%;
+  z-index: -1;
+  animation-name: animate-5;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+.asset:nth-child(6) {
+  position: absolute;
+  top: 80%;
+  left: 95%;
+  z-index: -1;
+  animation-name: animate-6;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+@media only screen and (max-width: 1024px) {
+  .about-cards {
+    display: grid;
+    grid-template-rows: 400px 400px 400px;
+  }
+
+  .main-body{
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px 400px;
+  }
+
+  .tagline-sec{
+    margin-top: 100px;
+    width: 50%;
+  }
+
+  .svg-img{
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-right: 0;
+  }
+
+  .asset:nth-child(2){
+    display: none;
+  }
+
+  .about-header{
+    padding-top: 35%;
+  }
+
+  .asset:nth-child(6){
+    display: none;
+  }
+
+  .assets:nth-child(5){
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .team-cards {
+    display: grid;
+    grid-template-rows: 500px 500px;
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .about-header{
+    padding-top: 15%;
+  }
+}

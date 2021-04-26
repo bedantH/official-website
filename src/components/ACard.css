@@ -1,0 +1,54 @@
+.card-sec {
+  margin: 30px;
+  transition: 0.3s;
+}
+
+.card-about {
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+  background-color: #f0e3ff;
+  width: 320px;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.card-about h1 {
+  letter-spacing: 2px;
+  font-size: 33px;
+  margin: 15px;
+  font-weight: 500;
+}
+
+.div {
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+.icon-img {
+  position: absolute;
+  left: 50%;
+  top: -10%;
+  transform: translate(-50%);
+  background-color: #b97cf0;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.icon-img img {
+  margin: 20px 0px;
+}
+
+.ab-desc {
+  text-align: center;
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+.ab-desc p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 30px;
+}

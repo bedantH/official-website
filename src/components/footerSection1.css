@@ -1,0 +1,99 @@
+
+/* main body */
+.footer-layout-top {
+  text-align: center;
+  justify-items: center;
+  padding-top: 10%;
+  margin-bottom: 150px;
+}
+
+/* Join the community */
+.join-t-com {
+  color: black;
+  display: block;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 66px;
+  font-weight: bold;
+  margin: auto;
+  letter-spacing: 10px;
+}
+
+/* Github and discord button */
+.btns-sec {
+  display: flex;
+  margin: auto;
+  width: 500px;
+  justify-content: space-around;
+}
+
+/* Github and discord links */
+.btns-sec a {
+  text-decoration: none;
+}
+
+/* Github button */
+.github-f-btn, .discord-btn {
+  color: white;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 91, 246, 0.91) 0%,
+    rgba(210, 81, 255, 0.91) 100%
+  );
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px 7px 20px;
+  font-size: 1.1rem;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 5px;
+  height: 50px;
+}
+
+/* GitHub logo */
+.github-f-logo {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+
+/* Disoord logo */
+.discord-logo {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+
+/* Responsive CSS code */
+
+@media screen and (max-width: 768px) {
+  .footer-layout-top {
+    overflow: hidden;
+  }
+
+  .join-t-com {
+    font-size: 36px;
+  }
+
+  .github-f-btn {
+    font-size: 20px;
+    height: 50px;
+    padding: 1px 15px;
+  }
+
+  .discord-btn {
+    font-size: 20px;
+    height: 50px;
+    padding: 1px 15px;
+  }
+
+}
+
+@media screen and (max-width: 425px){
+  .btns-sec{
+    display: grid;
+    grid-template-rows: 100px 100px;
+    width: auto;
+    margin-top: 25px;
+  }
+}
