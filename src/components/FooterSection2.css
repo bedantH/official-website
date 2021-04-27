@@ -39,14 +39,6 @@
   margin-top: 15px;
 }
 
-/* Contribute to GitHub */
-.contribute {
-  text-align: center;
-  margin: auto auto;
-  margin-top: 25px;
-  margin-left: 10px;
-}
-
 .contri-link {
   color: rgb(6, 114, 255);
   text-decoration: none;
@@ -81,10 +73,6 @@
 @media screen and (max-width: 550px){
   .left{
     grid-template-columns: 320px 2px;
-  }
-
-  .contribute{
-    margin-left: 0px;
   }
 }
 
