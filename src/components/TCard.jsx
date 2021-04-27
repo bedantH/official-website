@@ -23,9 +23,9 @@ export default function TCard(props) {
                         </p>
                     </div>
                     <div className="social-icons">
+                        <a className="github" href={props.github}><GitHubIcon /></a>
                         <a className="linkedin" href={props.linkedin}><LinkedInIcon /></a>
                         <a className="twitter" href={props.twitter}><TwitterIcon /></a>
-                        <a className="github" href={props.github}><GitHubIcon /></a>
                     </div>
                 </div>
             </div>

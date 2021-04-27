@@ -32,15 +32,17 @@ export default function AboutUs() {
                     <InfoOutlinedIcon className="icon-info" />
                     <h1>ABOUT US</h1>
                     <p>
-                        "PDC is an university based community group for students interested in computer technology.
+                        PDC is an university based community group for students interested in computer technology.
                         Students from any undergraduate or graduate programs with an interest in growing as a developer can join.
-                        We aim in growing knowledge in a peer-to-peer learning environment and build solutions for local businesses and  community."
+                    </p>
+                    <p>
+                        We aim in growing knowledge in a peer-to-peer learning environment and build solutions for local businesses and  community.
                     </p>
                 </div>
                 <div className="about-cards">
-                    <ACard heading="GROW" img="arrow-bold-top" text="Apply your skills to build awesome products and advance them. And also help others improve as well" />
                     <ACard heading="CONNECT" img="connect" text="Meet developers and tech enthusiats and advance yourself." />
                     <ACard heading="COLLABORATE" img="collabrate" text="Work on real world projects with other members. Experience how it feels to work as a team." />
+                    <ACard heading="GROW" img="arrow-bold-top" text="Apply your skills to build awesome products and advance them. And also help others improve as well" />
 
                 </div>
             </section>
