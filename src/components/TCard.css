@@ -29,10 +29,16 @@
   font-size: 1.9rem;
   margin: 15px;
   font-weight: 500;
+  padding: 0px 15px;
 }
 
 .mem-div {
   padding-top: 100px;
+}
+
+
+.card-sec:hover{
+  transform: translate(1.1);
 }
 
 .team-desc {

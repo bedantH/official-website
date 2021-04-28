@@ -45,7 +45,7 @@ export default function Teams() {
                         <div className="carousel-item">
                             <div className="team-cards">
                                 <TCard avatar="https://avatars.githubusercontent.com/u/64542454?v=4" heading="BEDANT HOTA" text="Web Lead" text1="Quite a Nerd, but knows how to code.:)" linkedin="https://www.linkedin.com/in/bedant-hota-99a5371a5/" twitter="https://twitter.com/BedantHota" github="https://github.com/bedantH" />
-                                <TCard avatar="https://avatars.githubusercontent.com/u/72993471?v=4" heading="PRATHAM YADAV" text="Web Co-Lead" text1="Student | Developer" linkedin="https://www.linkedin.com/in/pratham-yadav-0612531ba/" twitter="https://twitter.com/Pratham06697358" github="https://github.com/ypratham" />
+                                <TCard avatar="https://avatars.githubusercontent.com/u/72993471?v=4" heading="PRATHAM YADAV" text="Web Co-Lead" text1="Student | Learner | Developer" linkedin="https://www.linkedin.com/in/pratham-yadav-0612531ba/" twitter="https://twitter.com/Pratham06697358" github="https://github.com/ypratham" />
                             </div>
                         </div>
                     </div>

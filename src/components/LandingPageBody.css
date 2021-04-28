@@ -14,14 +14,11 @@
 }
 
 /*  */
-.tagline h1 {
+.tagline p {
   font-family: "Josefin Sans", sans-serif;
-  letter-spacing: 5px;
-  line-height: 80px;
-}
-
-.grow-connect {
-  font-weight: 600;
+  font-size: 1.2rem;
+  width: 90%;
+  font-weight: 300;
 }
 
 /* Github Button */
@@ -29,9 +26,9 @@
 .github-btn {
   background-image: linear-gradient(to right, #c42cbc, #8a20e9);
   border: none;
-  border-radius: 10px;
+  border-radius: 7px;
   color: white;
-  padding: 5px 20px;
+  padding: 4px 15px;
 }
 
 .github-btn a {
@@ -42,11 +39,11 @@
 }
 
 .github-txt {
-  font-size: 20px;
+  font-size: 1rem;
   letter-spacing: 5%;
   margin-right: 20px;
   margin-top: 5px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .github-txt svg{
@@ -54,8 +51,8 @@
 }
 
 .github-logo {
-  width: 30px;
-  height: 30px;
+  width: 22px;
+  height: 22px;
 }
 
 .svg-img img{

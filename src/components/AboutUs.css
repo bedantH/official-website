@@ -347,6 +347,10 @@
   animation-delay: 1s;
 }
 
+.team-sec:hover{
+  transform: scale(1.1);
+}
+
 @media only screen and (max-width: 1024px) {
   .about-cards {
     display: grid;

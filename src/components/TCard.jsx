@@ -7,7 +7,7 @@ import "./TCard.css";
 
 export default function TCard(props) {
     return (
-        <section className="card-sec">
+        <section className="team-sec">
             <div className="card-teams">
                 <div className="team-member-img">
                     <img alt="teams" src={props.avatar} />
