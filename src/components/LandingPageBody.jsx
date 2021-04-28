@@ -15,7 +15,7 @@ export default function Body() {
                 <div className="github-btn-sec">
                     <button className="github-btn">
                         <a href="#aboutUs-section">
-                            <span className="github-txt"> Learn More... </span> 
+                            <span className="github-txt"> Learn more </span> 
                         </a>
                     </button>
                 </div>
