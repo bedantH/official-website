@@ -12,6 +12,7 @@ body {
   justify-content: center;
   width: 100%;
   transition: 0.5s;
+  margin-top: 5px;
 }
 
 .top-header ul {
@@ -40,13 +41,12 @@ body {
 .logo-img {
   width: 50px;
   border-radius: 50%;
-  margin-top: 10px;
 }
 
 .org-name {
   font-size: 1.75rem;
   letter-spacing: 5px;
-  padding-top: 16px;
+  padding-top: 5px;
   padding-left: 20px;
 }
 
@@ -57,7 +57,7 @@ body {
   background-color: black;
   width: 1px;
   height: 40px;
-  margin-top: 7px;
+  margin-top: -2px;
   margin-left: 10px;
 }
 
@@ -65,7 +65,6 @@ body {
 .events-blog {
   display: flex;
   margin-left: 5px;
-  margin-top: 10px;
 }
 
 .events-blog li a {
@@ -86,7 +85,6 @@ body {
 .join-sec {
   display: flex;
   align-items: center;
-  margin-top: 10px;
   margin-right: 20px;
 }
 
