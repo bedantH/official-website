@@ -8,8 +8,9 @@ export default function Body() {
         <main className="main-body">
             <section className="tagline-sec">
                 <div className="tagline">
-                    <h1>
-                        <span className="grow-connect" > GROW. CONNECT. COLLABORATE. </span></h1>
+                    <p>
+                        <span className="grow-connect" >PDC is an university based community group for students interested in computer technology.
+                        Students from any undergraduate or graduate programs with an interest in growing as a developer can join.</span></p>
                 </div>
                 <div className="github-btn-sec">
                     <button className="github-btn">

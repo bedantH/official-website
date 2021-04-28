@@ -32,8 +32,7 @@ export default function AboutUs() {
                     <InfoOutlinedIcon className="icon-info" id="aboutUs-section"/>
                     <h1 >ABOUT US</h1>
                     <p>
-                        PDC is an university based community group for students interested in computer technology.
-                        Students from any undergraduate or graduate programs with an interest in growing as a developer can join.
+                        
                     </p>
                     <p>
                         We aim in growing knowledge in a peer-to-peer learning environment and build solutions for local businesses and  community.
