@@ -1,7 +1,7 @@
 import React from 'react'
 import './LandingPageBody.css'
 
-import GitHubIcon from '@material-ui/icons/GitHub';
+// import GitHubIcon from '@material-ui/icons/GitHub';
 
 export default function Body() {
     return (
@@ -13,8 +13,8 @@ export default function Body() {
                 </div>
                 <div className="github-btn-sec">
                     <button className="github-btn">
-                        <a href="https://github.com/PH-DC">
-                            <span className="github-txt"> GITHUB </span> <GitHubIcon />
+                        <a href="#aboutUs-section">
+                            <span className="github-txt"> Learn More... </span> 
                         </a>
                     </button>
                 </div>
